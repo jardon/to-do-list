@@ -22,6 +22,9 @@ To run the application, type
 
 This should start the node server.
 
+**NOTE** \
+The .dev.env is needed for `npm run start:dev` and also the db_broker.js file in order to work properly
+
 In order to start the React.js server, type 
 
 ```
