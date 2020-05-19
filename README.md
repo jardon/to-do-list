@@ -1,13 +1,31 @@
 # To-Do List Project
 
-Welcome to the AST onboarding project.  The purpose of this project is to get new hires familiar with the tools and frameworks that we use every day.  This project will also get you accustomed to the team's workflow so that we can collaborate well.
+This project is a full stack application in the form of a to-do list. It uses a mySQL server to store the individual items in the to-do list. The application uses Node.js and Express.js for the backend, and React.js on the front end. 
 
-In this exercise, you will be building a small web application that incorporates all of technologies you will need to know in order to contribute to the team.  Below you will find the basic requirements of the project.
+## Packages
+-------
 
-The web application must have the following:
-* Web interface that lets the user add, edit, and delete items in the to-do list
-* The to-do list data must be persistent and stored in a database
-* A basic API must be built so that data can be pulled from the database by other applications
-* The entire application stack must be contained on a single host
+The needed packages for this application can be downloaded using `npm install`. 
+```
+npm install express
+npm install mysql2
+npm install body-parser
+npm install cors
+npm install nodemon
+```
 
-The above requirements are broken down into tasks and are tracked on our project management platform.  You must meet the specific requirements of each task, but you are free implement the tasks however you see fit. 
+## Running the application
+----
+To run the application, type 
+
+`npm run start:dev`.
+
+This should start the node server.
+
+In order to start the React.js server, type 
+
+```
+cd client
+npm run start
+```
+into a seperate terminal window. The React.js application should load in your browser. 
